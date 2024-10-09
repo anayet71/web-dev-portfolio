@@ -161,3 +161,98 @@ main{
     margin-top: 113px;
     gap: 23px;
 }
+
+/* Resume section */
+.resume-container{
+    display: flex;
+    gap: 70px;
+    margin-top: 113px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #474747;
+}
+.resume-column{
+    text-align: left;
+}
+.experience{
+    
+    padding-right: 47px;
+    padding-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+
+}
+.experience-subtitle{
+    color: #757575;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600px; /* Semi-bold */
+
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+.primary-button-2{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer info */
+.info{
+    display: flex;
+    gap: 171px;
+    max-width:1194px;
+    margin: 0 auto;
+    margin-top: 110px;
+    background-color: #FFF8F3;
+    padding: 130px 230px 130px 230px;
+
+}
+.connect{
+    text-align: left;
+}
+.info-section-title{
+    font-size: 35px;
+    font-weight: bold;  
+}
+.section-details{
+    font-size: 16px;
+    color:#474747;
+    margin-top: 20px;
+}
+.info-social img{
+    padding-right: 24px;
+    margin-top: 30px;
+}
+form > input{
+    width: 460px;
+    height: 64px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 24px;
+   
+}
+textarea{
+    padding: 15px;
+    border: none;
+    display: block;
+    margin-bottom:24px ;
+}
